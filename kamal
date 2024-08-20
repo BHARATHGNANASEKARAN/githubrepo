@@ -1,0 +1,8 @@
+
+git --version
+git config --global user.name "BHARATHGNANASEKARAN"
+git config --global user.email "senthilttp27@gmail.com"
+ssh-keygen -t ecdsa
+git add .
+git commit -m "thirdcommit"
+git push
