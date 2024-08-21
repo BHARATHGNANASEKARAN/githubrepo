@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
+phpgit checkout
+=========
 php
 python 
 java
-=======
-phpgit checkout
->>>>>>> f1f82f1e5b364e7419ea4d1c49cc65771762fb2f
+>>>>>>>>> Temporary merge branch 2
