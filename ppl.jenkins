@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage ("Cloning Spring petclinic Application") {
+            steps {
+                git(
+        url: "https://github.com/srikrishnaprakash/spc-app.git",
+        credentialsId: "",
+        branch: "main"
+       )
+            }
+           
+        }
+        stage ("Print Maven Version") {
+            steps{
+                sh "mvn --version"
+            }
+        }
+        stage ("Packaging the application using maven") {
+            steps {
+               sh "mvn package"
+            }
+        }
+    }
+}
