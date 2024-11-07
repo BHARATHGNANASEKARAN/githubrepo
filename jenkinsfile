@@ -6,7 +6,8 @@ pipeline {
             git(
                 url:"git@github.com:BHARATHGNANASEKARAN/githubrepo.git",
                  branch:"main"
-                )
+                 crendentialid:"Bharath@27"
+                  timeout:10 )
         }
     }
     stage("build"){
