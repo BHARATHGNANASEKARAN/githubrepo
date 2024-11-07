@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage("cloning my git"){
+        steps {
+            git(
+                url:"git@github.com:BHARATHGNANASEKARAN/githubrepo.git",
+                 branch:"main"
+                )
+        }
+    }
+    stage("build"){
+        steps {
+            bat"mvn --version"
+            bat"mvn package"
+            bat"mvn sonar:sonar"
+        }
+    }
+}
+}
