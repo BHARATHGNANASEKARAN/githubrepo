@@ -5,7 +5,7 @@ pipeline {
         steps {
             git(
                 url:"git@github.com:BHARATHGNANASEKARAN/githubrepo.git",
-                 branch:"master"
+                 branch:"main"
                 )
         }
     }
