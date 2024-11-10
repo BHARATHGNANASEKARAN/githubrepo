@@ -13,8 +13,18 @@ pipeline {
     stage("build"){
         steps {
             bat"mvn --version"
-            bat"mvn package"
+            bat"mvn clean"
+            bat"mvn package -DskipTests"
         }
     }
+ stage('Deploy') {
+            steps {
+                bat 'delete G:\server\apache-tomcat-9.0.93\webapps\java-app.war'
+                bat 'rmdir /s G:\server\apache-tomcat-9.0.93\webapps\java-app'
+                bat 'copy /y target\\java-app.war G:\server\apache-tomcat-9.0.93\webapps\'
+                bat 'G:\server\apache-tomcat-9.0.93\webapps\catalona start\'
+                bat 'G:\server\apache-tomcat-9.0.93\webapps\catalina stop\'
+            }
+        }
 }
 }
