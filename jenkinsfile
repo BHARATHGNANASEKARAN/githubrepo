@@ -5,8 +5,8 @@ pipeline {
         steps {
             git(
                 url:"git@github.com:BHARATHGNANASEKARAN/githubrepo.git",
+                  crendentialId:"GITHUB"
                  branch:"main"
-                 crendentialid:"Bharath@27"
                   timeout:10 )
         }
     }
