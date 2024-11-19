@@ -4,8 +4,8 @@ pipeline {
         stage("cloning my git"){
         steps {
             git(
-                url:"git@github.com:BHARATHGNANASEKARAN/githubrepo.git",
-                crendentialId:"GITHUB"
+                url:"https://github.com/BHARATHGNANASEKARAN/githubrepo.git",
+                crendentialId:""
                 branch:"main"
              )
         }
