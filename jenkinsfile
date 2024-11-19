@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("cloning my git"){
+        stage("cloning git"){
         steps {
             git(
                 url:"https://github.com/BHARATHGNANASEKARAN/githubrepo.git",
