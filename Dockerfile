@@ -1,6 +1,3 @@
-FROM tomcat:8.5.100-jdk17
-LABEL Author="Bharath creating sample java-app"
-WORKDIR /usr/local/tomcat/webapps/
-COPY target/Sample-java-app.war .
+FROM tomcat:latest
+COPY **/java-app.war /usr/local/tomcat/webapps/
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
