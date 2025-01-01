@@ -1,0 +1,111 @@
+Basic Git Commands
+
+1. git init: Initialize a new Git repository.
+Example: "Create a new project folder."
+2. git clone: Copy an existing Git repository.
+Example: "Download a project from GitHub."
+3. git add: Stage changes for the next commit.
+Example: "Prepare changes to be saved."
+4. git commit: Save changes with a meaningful message.
+Example: "Save changes with a description."
+5. git log: View commit history.
+Example: "See what changes were made."
+
+Branching and Merging
+
+1. git branch: Create, list, or delete branches.
+Example: "Create a new feature branch."
+2. git checkout: Switch between branches.
+Example: "Switch to the new feature branch."
+3. git merge: Combine changes from two branches.
+Example: "Merge the feature branch into the main branch."
+
+Remote Repositories
+
+1. git remote: Manage remote repositories.
+Example: "Link your local repository to GitHub."
+2. git push: Upload changes to a remote repository.
+Example: "Upload your changes to GitHub."
+3. git pull: Download changes from a remote repository.
+Example: "Download changes from GitHub."
+
+
+Undoing Changes
+
+1. git reset: Revert changes.
+Example: "Undo changes made in the last commit."
+2. git revert: Reverse a specific commit.
+Example: "Reverse a specific change made earlier."
+
+Advanced Git Commands
+
+1. git stash: Temporarily save changes to revert later.
+Example: "Save changes to work on something else."
+2. git cherry-pick: Apply a commit from one branch to another.
+Example: "Apply a fix from a different branch."
+3. git rebase: Reapply commits on top of another branch.
+Example: "Update your feature branch with the latest changes."
+4. git tag: Create a reference to a specific commit.
+Example: "Mark a release version."
+5. gitk --all: Visualize the commit history.
+Example: "See the entire commit history in a graph."
+
+Git Configuration Commands
+
+1. git config: Set or get Git configuration options.
+Example: "Set your name and email for commits."
+2. git config --global: Set global Git configuration options.
+Example: "Set your default editor for Git."
+
+Git Troubleshooting Commands
+
+1. git status: Check the status of your repository.
+Example: "See which files are modified."
+2. git diff: Show differences between files.
+Example: "See changes made to a file."
+3. git fsck: Check for errors in your repository.
+Example: "Check for corrupted files."
+
+Git Submodule Commands
+
+1. git submodule add: Add a submodule to your repository.
+Example: "Include a library as a submodule."
+2. git submodule update: Update submodules to the latest version.
+Example: "Update the library to the latest version."
+
+Git Remote Commands
+
+1. git remote add: Add a remote repository.
+Example: "Link your local repository to GitHub."
+2. git remote remove: Remove a remote repository.
+Example: "Remove the link to GitHub."
+3. git remote rename: Rename a remote repository.
+Example: "Rename the remote repository from 'origin' to 'github'."
+
+Git Fetch and Pull Commands
+
+1. git fetch: Download changes from a remote repository.
+Example: "Download changes from GitHub without merging."
+2. git pull: Download changes and merge them.
+Example: "Download changes from GitHub and merge them."
+
+Git Push Commands
+
+1. git push: Upload changes to a remote repository.
+Example: "Upload your changes to GitHub."
+2. git push --force: Force upload changes to a remote repository.
+Example: "Override changes on GitHub with your local changes."
+
+Git Reset and Revert Commands
+
+1. git reset: Revert changes.
+Example: "Undo changes made in the last commit."
+2. git revert: Reverse a specific commit.
+Example: "Reverse a specific change made earlier."
+
+Git Clean Commands
+
+1. git clean: Remove untracked files.
+Example: "Remove temporary files."
+2. git clean -d: Remove untracked directories.
+Example: "Remove empty directories."
