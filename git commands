@@ -109,3 +109,22 @@ Git Clean Commands
 Example: "Remove temporary files."
 2. git clean -d: Remove untracked directories.
 Example: "Remove empty directories."
+
+Git Interview Questions
+
+1. What is Git?
+    - A version control system for tracking changes in source code.
+2. What is a repository in Git?
+    - A central location where all the files, history, and metadata of a project are stored.
+3. What is the difference between Git and SVN?
+    - Git is a distributed version control system, while SVN is a centralized version control system.
+4. What is a branch in Git?
+    - A separate line of development in a repository, allowing multiple versions of the codebase to coexist.
+5. What is a merge in Git?
+    - The process of integrating changes from one branch into another.
+6. What is a commit in Git?
+    - A snapshot of changes made to the codebase, along with a description of the changes.
+7. What is Git stash?
+    - A temporary storage area for changes that are not yet committed.
+8. How do you resolve conflicts in Git?
+    - By manually editing the conflicting files and committing the resolved changes.
